@@ -1,5 +1,5 @@
 //STLデバッグ機能をOFFにする
-#define _SECURE_SCL(0)
+#define _SECURE_SCL　(0)
 #define _HAS_ITERATOR_DEBUGGING (0)
 
 //GameLで使用するヘッダー
@@ -29,7 +29,7 @@ CScenemain::~CScenemain()
 void CScenemain::InitScene()
 {
 	//外部グラフィックファイルを読み込んで0番に登録
-	Draw::LoadImage(L"",0,TEX_SIZE_512)
+	Draw::LoadImage(L"", 0, TEX_SIZE_512);
 }
 
 //実行中メソッド
