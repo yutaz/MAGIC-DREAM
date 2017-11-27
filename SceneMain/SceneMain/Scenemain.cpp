@@ -29,7 +29,7 @@ CScenemain::~CScenemain()
 void CScenemain::InitScene()
 {
 	//外部グラフィックファイルを読み込んで0番に登録
-	Draw::LoadImage('')
+	Draw::LoadImage(L"",0,TEX_SIZE_512)
 }
 
 //実行中メソッド
