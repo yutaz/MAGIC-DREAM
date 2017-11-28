@@ -122,6 +122,7 @@
     <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.cpp" />
     <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.cpp" />
     <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.cpp" />
+    <ClCompile Include="F:\test2 - コピー\test\STG\STG\ObjEnemy.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.h" />
+    <ClInclude Include="F:\test2 - コピー\test\STG\STG\ObjEnemy.h" />
     <ClInclude Include="ObjHero.h" />
   </ItemGroup>
   <ItemGroup>
