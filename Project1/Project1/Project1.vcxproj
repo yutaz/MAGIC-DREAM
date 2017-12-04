@@ -125,6 +125,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\GameHead.h" />
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\main.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.h" />
