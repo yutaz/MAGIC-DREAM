@@ -28,12 +28,43 @@ CScenemain::~CScenemain()
 //初期化メソッド
 void CScenemain::InitScene()
 {
-	//外部グラフィックファイルを読み込んで0番に登録
+	//外部グラフィックファイルを読み込んで0番に登録(512*512pxcel)
 	Draw::LoadImage(L"", 0, TEX_SIZE_512);
+
+	//Bossに使う外部グラフィックファイルの読み込み　1番に登録(512*512pxcel)
+	Draw::LoadImageW(L"",1, TEX_SIZE_512);
+
+	//主人公オブジェクト作成
+	
+
+	//敵機出現のタイム初期化
+	m_time = 0;
 }
 
 //実行中メソッド
 void CScenemain::Scene()
 {
+	m_time++;
+
+	if (m_time == 30)
+	{
+		
+	}
+
+	else if (m_time == 80)
+	{
+
+	}
+
+	else if (m_time == 120)
+	{
+
+	}
+
+	else if (m_time == 200)
+	{
+
+	}
+
 
 }
