@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1BC9F96-2D9A-4EE0-9466-6C6A04C19A9C}</ProjectGuid>
+    <RootNamespace>SceneMain</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\Audio.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\DirectXDevice.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\DrawFont.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\DrawTexture.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\GameL_Main.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\HitBoxManager.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\MultiThread.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\SceneManager.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\SceneObjManager.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\SetWindow.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\UserData.cpp" />
+    <ClCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\WinInputs.cpp" />
+    <ClCompile Include="Scenemain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameHead.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\Audio.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\DirectXDevice.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\DrawFont.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\DrawTexture.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\HitBoxManager.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\MultiThread.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\SceneManager.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\SceneObjManager.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\SetWindow.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\UserData.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\GameL\WinInputs.h" />
+    <ClInclude Include="D:\森田\指南書\２Ｄライブラリ\main.h" />
+    <ClInclude Include="Scenemain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="D:\森田\指南書\２Ｄライブラリ\GameL\Draw2DTex.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
