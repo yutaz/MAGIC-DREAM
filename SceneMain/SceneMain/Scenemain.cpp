@@ -44,27 +44,29 @@ void CScenemain::InitScene()
 //Às’†ƒƒ\ƒbƒh
 void CScenemain::Scene()
 {
-	m_time++;
+	m_time++;//“G‚ÌoŒ»ŠÔ
 
-	if (m_time == 30)
+	if (m_time == 30)//30•b
 	{
 		
 	}
 
-	else if (m_time == 80)
+	else if (m_time == 80)//80•b
 	{
 
 	}
 
-	else if (m_time == 120)
+	else if (m_time == 120)//120•b
 	{
 
 	}
 
-	else if (m_time == 200)
+	else if (m_time == 200)//200•b
 	{
 
 	}
+
+
 
 
 }
