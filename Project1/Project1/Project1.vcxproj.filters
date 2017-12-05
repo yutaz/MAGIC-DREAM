@@ -18,40 +18,100 @@
     <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.cpp">
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjAngleBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjBullteEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjHomingBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjHomingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\CObjSinEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjAttackEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjBackground.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjClear.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjDiffusionEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjEnemyBoss.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjGameOver.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjHero.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\ObjTitle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\SceneClear.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\SceneGameOver.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\SceneMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\SceneTitle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\test2 - コピー\test\STG\STG\UtilityModule.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\Audio.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.cpp">
+    <ClCompile Include="GameL\DirectXDevice.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.cpp">
+    <ClCompile Include="GameL\DrawFont.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DrawTexture.cpp">
+    <ClCompile Include="GameL\DrawTexture.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\GameL_Main.cpp">
+    <ClCompile Include="GameL\GameL_Main.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\HitBoxManager.cpp">
+    <ClCompile Include="GameL\HitBoxManager.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\MultiThread.cpp">
+    <ClCompile Include="GameL\MultiThread.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SceneManager.cpp">
+    <ClCompile Include="GameL\SceneManager.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SceneObjManager.cpp">
+    <ClCompile Include="GameL\SceneObjManager.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.cpp">
+    <ClCompile Include="GameL\SetWindow.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.cpp">
+    <ClCompile Include="GameL\UserData.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.cpp">
+    <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="F:\test2 - コピー\test\STG\STG\ObjEnemy.cpp">
@@ -62,37 +122,109 @@
     <ClInclude Include="ObjHero.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.h">
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjAngleBullet.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjBullet.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjBullteEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjHomingBullet.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjHomingEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\CObjSinEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\GameHead.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjAttackEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjBackground.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjClear.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjDiffusionEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjEnemyBoss.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjGameOver.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjHero.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\ObjTitle.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\SceneClear.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\SceneGameOver.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\SceneMain.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\SceneTitle.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\test2 - コピー\test\STG\STG\UtilityModule.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.h">
+    <ClInclude Include="GameL\DirectXDevice.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.h">
+    <ClInclude Include="GameL\DrawFont.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawTexture.h">
+    <ClInclude Include="GameL\DrawTexture.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\HitBoxManager.h">
+    <ClInclude Include="GameL\HitBoxManager.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\MultiThread.h">
+    <ClInclude Include="GameL\MultiThread.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SceneManager.h">
+    <ClInclude Include="GameL\SceneManager.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SceneObjManager.h">
+    <ClInclude Include="GameL\SceneObjManager.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.h">
+    <ClInclude Include="GameL\SetWindow.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.h">
+    <ClInclude Include="GameL\UserData.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.h">
+    <ClInclude Include="GameL\WinInputs.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\ObjEnemy.h">
@@ -100,7 +232,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Draw2DTex.hlsl">
+    <Image Include="G:\test2 - コピー\test\STG\STG\danngann.png">
+      <Filter>ソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="GameL\Draw2DTex.hlsl">
       <Filter>リソース ファイル</Filter>
     </FxCompile>
   </ItemGroup>

@@ -16,6 +16,7 @@ public:
 
 
 private:
+	int m_time; //シーンのタイム(主に敵機出現に使用)
 
 };
 
