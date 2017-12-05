@@ -47,12 +47,12 @@ void CObjAngleBullet::Action()
 	if (m_x > 800.0f)//‰E”»’è
 	{
 		this->SetStatus(false);
-		Hits::DeleteHitBox(this);//
+		Hits::DeleteHitBox(this);
 	}
 
 	if (m_y < -32.0f)//ã”»’è
 	{
-		this->SetStatus(false);//
+		this->SetStatus(false);
 		Hits::DeleteHitBox(this);
 	}
 
