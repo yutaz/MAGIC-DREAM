@@ -113,21 +113,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\DrawTexture.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\GameL_Main.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\HitBoxManager.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\MultiThread.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SceneManager.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SceneObjManager.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.cpp" />
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.cpp" />
+    <ClCompile Include="GameL\Audio.cpp" />
+    <ClCompile Include="GameL\DirectXDevice.cpp" />
+    <ClCompile Include="GameL\DrawFont.cpp" />
+    <ClCompile Include="GameL\DrawTexture.cpp" />
+    <ClCompile Include="GameL\GameL_Main.cpp" />
+    <ClCompile Include="GameL\HitBoxManager.cpp" />
+    <ClCompile Include="GameL\MultiThread.cpp" />
+    <ClCompile Include="GameL\SceneManager.cpp" />
+    <ClCompile Include="GameL\SceneObjManager.cpp" />
+    <ClCompile Include="GameL\SetWindow.cpp" />
+    <ClCompile Include="GameL\UserData.cpp" />
+    <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\GameHead.h" />
+    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\main.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.h" />
     <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.h" />
@@ -142,10 +144,7 @@
     <ClInclude Include="ObjHero.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="G:\test2 - コピー\test\STG\STG\danngann.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="GameL\Draw2DTex.hlsl" />
+    <FxCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Draw2DTex.hlsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
