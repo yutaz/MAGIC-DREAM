@@ -16,7 +16,7 @@ void CObjGameOver::Init()
 {
 	m_key_flag = false;//ƒL[ƒtƒ‰ƒO
 
-	float Graphic[8] = {};//ŠG‚Ì–‡”
+	float Graphic[8] = {0,1,2,3,4,5,6,7};//ŠG‚Ì–‡”
 
 
 }
@@ -66,4 +66,6 @@ void CObjGameOver::Draw()
 
 
 	//0”Ô–Ú‚É“o˜^‚µ‚½
+
+
 }
