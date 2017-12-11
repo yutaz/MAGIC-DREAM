@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B68769E1-C51A-4A72-A6C6-5E2EE0CF483C}</ProjectGuid>
-    <RootNamespace>Project1</RootNamespace>
+    <ProjectGuid>{FFF3B262-4DDD-47BA-8C57-983CB78F3FAE}</ProjectGuid>
+    <RootNamespace>CObjAngleBullet</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -40,8 +40,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v100</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -68,10 +68,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -113,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CObjAngleBullet.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
     <ClCompile Include="GameL\DirectXDevice.cpp" />
     <ClCompile Include="GameL\DrawFont.cpp" />
@@ -125,26 +123,25 @@
     <ClCompile Include="GameL\SetWindow.cpp" />
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\GameHead.h" />
-    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\main.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DirectXDevice.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawFont.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\DrawTexture.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\HitBoxManager.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\MultiThread.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SceneManager.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SceneObjManager.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\SetWindow.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\UserData.h" />
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\WinInputs.h" />
-    <ClInclude Include="ObjHero.h" />
+    <ClInclude Include="CObjAngleBullet.h" />
+    <ClInclude Include="GameHead.h" />
+    <ClInclude Include="GameL\Audio.h" />
+    <ClInclude Include="GameL\DirectXDevice.h" />
+    <ClInclude Include="GameL\DrawFont.h" />
+    <ClInclude Include="GameL\DrawTexture.h" />
+    <ClInclude Include="GameL\HitBoxManager.h" />
+    <ClInclude Include="GameL\MultiThread.h" />
+    <ClInclude Include="GameL\SceneManager.h" />
+    <ClInclude Include="GameL\SceneObjManager.h" />
+    <ClInclude Include="GameL\SetWindow.h" />
+    <ClInclude Include="GameL\UserData.h" />
+    <ClInclude Include="GameL\WinInputs.h" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Draw2DTex.hlsl" />
+    <FxCompile Include="GameL\Draw2DTex.hlsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

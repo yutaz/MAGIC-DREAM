@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.cpp">
+    <ClCompile Include="GameL\Audio.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="GameL\DirectXDevice.cpp">
@@ -54,15 +51,12 @@
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="F:\test2 - コピー\test\STG\STG\ObjEnemy.cpp">
+    <ClCompile Include="ObjEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ObjHero.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\test2 - コピー\test\STG\STG\GameL\Audio.h">
+    <ClInclude Include="GameL\Audio.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="GameL\DirectXDevice.h">
@@ -95,15 +89,18 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\GameHead.h">
+    <ClInclude Include="GameHead.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="D:\河島\test2 - コピー\指南書\２Ｄライブラリ\main.h">
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="F:\test2 - コピー\test\STG\STG\GameL\Draw2DTex.hlsl">
+    <FxCompile Include="GameL\Draw2DTex.hlsl">
       <Filter>リソース ファイル</Filter>
     </FxCompile>
   </ItemGroup>
